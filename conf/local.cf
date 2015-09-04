@@ -1,0 +1,11 @@
+add_header all Score _SCORE_
+required_score 5
+rewrite_header subject [SPAM] (_SCORE_)
+use_bayes 1
+use_bayes_rules 1
+bayes_auto_learn 1
+bayes_auto_learn_threshold_nonspam 0.3
+bayes_auto_learn_threshold_spam 12
+bayes_min_ham_num 200
+bayes_min_spam_num 200
+report_safe 2

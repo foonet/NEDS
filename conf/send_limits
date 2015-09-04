@@ -1,0 +1,5 @@
+# Commented lines and blank lines are ignored
+# Must be the last line, this is the default limit
+*@*: 100
+a@foonet.org: 1000
+

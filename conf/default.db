@@ -1,0 +1,15 @@
+$TTL 14400
+@	IN	SOA	a.ns.foonet.org.	zmeu.foonet.org. (
+						2015081001
+						7200
+						3600
+						1209600
+						180 )
+
+@	14400	IN	NS		a.ns.foonet.org.
+@	14400	IN	NS		b.ns.foonet.org.
+@	14400	IN	NS		c.ns.foonet.org.
+@	14400	IN	A		_IP_
+www	14400	IN	A		_IP_
+@	14400	IN	MX	10	foonet.org.
+@	14400	IN	TXT		"v=spf1 a mx ip4:_IP_ ?all"

@@ -1,0 +1,6 @@
+        echo -en "\n\n\t!! WARNING !! \t\t***\t\t !! WARNING !!\n\n"
+        echo "* Please kept private this code."
+        echo "* This was written solely for educational purposes."
+        echo "* Use it at your own risk."
+        echo -en "* The author will be not responsible for any damage.\n\n"
+
