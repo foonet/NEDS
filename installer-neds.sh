@@ -32,7 +32,7 @@ HELP() {
 
 VERSION() {
 	echo "Author: ZmEu"
-	echo "Contact: a@foonet.org"
+	echo "Contact: a AT foonet DOT org"
 	echo "Name: installer-neds.sh"
 	echo "Description: NOT FOUND"
 	echo "License: PUBLIC"
